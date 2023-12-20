@@ -4,6 +4,7 @@ import data from "../../helper/imageData";
 import "./ProjectDetails.scss";
 import NotFound from "../../components/Error/NotFound";
 
+
 const ProjectDetails = () => {
   const navigate = useNavigate();
   const { id } = useParams();

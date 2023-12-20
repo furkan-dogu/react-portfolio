@@ -7,7 +7,7 @@ const NotFound = () => {
     return (
         <>
             <div className='notfound'>
-                <img src="https://i1.wp.com/cdn.dribbble.com/users/547471/screenshots/3063720/not_found.gif?ssl=1" alt="img" className='notfound__img' />
+                <img src="../assets/404.gif" alt="img" className='notfound__img' />
             </div>
             <div className="buttons">
                 <button className="buttons__back" type="button" onClick={() => navigate(-1)}>Back</button>

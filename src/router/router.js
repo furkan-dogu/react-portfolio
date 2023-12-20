@@ -9,7 +9,7 @@ import ProjectDetails from '../pages/ProjectDetail/ProjectDetails';
 import NotFound from '../components/Error/NotFound';
 
 const Router = () => {
-
+  
   return (
     <>
       <Navbar />
